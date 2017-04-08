@@ -21,3 +21,12 @@ test('should sort array of strings', assert => {
     ['a', 'ab', 'b', 'bc', 'bd', 'c', 'd']
   )
 })
+
+test('should sort array with given distance comparaison', assert => {
+  assert.plan(1)
+  const result = sort(
+    ['hello', 'foo', 'calgary']
+    , (prev, next) => prev.length < next.length
+  )
+  assert.deepEqual(result, ['foo', 'hello', 'calgary'])
+})
