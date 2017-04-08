@@ -4,7 +4,8 @@
   "description": "Bubble sort algorithm",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "benchmark": "matcha benchmark"
   },
   "scripts": {
     "test": "tape test/*.js"
