@@ -1,5 +1,5 @@
 # Bubble sort
-
+[![Build Status](https://travis-ci.org/bredele/algo-sort-bubble.svg?branch=master)](https://travis-ci.org/bredele/algo-sort-bubble)
 [![NPM](https://img.shields.io/npm/v/algo-bubble-sort.svg?style=flat-square)](https://www.npmjs.com/package/algo-bubble-sort)
 [![Downloads](https://img.shields.io/npm/dm/algo-bubble-sort.svg?style=flat-square)](http://npm-stat.com/charts.html?package=algo-bubble-sort)
 [![pledge](https://bredele.github.io/contributing-guide/community-pledge.svg)](https://github.com/bredele/contributing-guide/blob/master/community.md)
