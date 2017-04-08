@@ -19,6 +19,14 @@ sort([
   0, 67, 7, 34, 54, 3, 2, 54, 1
 ])
 // => [0, 1, 2, 3, 7, 34, 54, 54, 67]
+
+sort([
+  'world',
+  'foo',
+  'olivier',
+  'a'
+], (prev, next) => prev.length < next.length)
+// => ['a', 'foo', 'world', 'olivier']
 ```
 
 ## Installation
