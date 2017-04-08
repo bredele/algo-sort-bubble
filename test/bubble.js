@@ -13,3 +13,11 @@ test('should sort array of numbers', assert => {
     [0, 1, 3, 6, 7, 65, 98]
   )
 })
+
+test('should sort array of strings', assert => {
+  assert.plan(1)
+  assert.deepEqual(
+    sort(['a', 'bc', 'c', 'b', 'bd', 'ab', 'd']),
+    ['a', 'ab', 'b', 'bc', 'bd', 'c', 'd']
+  )
+})
