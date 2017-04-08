@@ -1,4 +1,4 @@
-var arr = array(100, 100)
+var arr = array(10, 1000)
 
 suite('bubble, sort', function() {
   bench('normal', function() {

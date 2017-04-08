@@ -4,11 +4,11 @@
   "description": "Bubble sort algorithm",
   "main": "index.js",
   "directories": {
-    "test": "test",
-    "benchmark": "matcha benchmark"
+    "test": "test"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js",
+    "benchmark": "matcha benchmark"
   },
   "repository": {
     "type": "git",
