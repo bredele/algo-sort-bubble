@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/bredele/algo-sort-bubble/issues"
   },
-  "homepage": "https://github.com/bredele/algo-sort-bubble#readme"
+  "homepage": "https://github.com/bredele/algo-sort-bubble#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
 }
