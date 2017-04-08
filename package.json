@@ -1,0 +1,27 @@
+{
+  "name": "algo-sort-bubble",
+  "version": "1.0.0",
+  "description": "Bubble sort algorithm",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/algo-sort-bubble.git"
+  },
+  "keywords": [
+    "sort",
+    "algorithm",
+    "bubble"
+  ],
+  "author": "Olvier <olivier.wietrich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/algo-sort-bubble/issues"
+  },
+  "homepage": "https://github.com/bredele/algo-sort-bubble#readme"
+}
