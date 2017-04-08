@@ -9,6 +9,7 @@
  */
 
 module.exports = function(array) {
+  array = array.slice(0)
   var length = array.length
   while(length) {
     var i = 0
