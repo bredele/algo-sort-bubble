@@ -29,6 +29,10 @@ sort([
 // => ['a', 'foo', 'world', 'olivier']
 ```
 
+## Rabbits and Turtles
+
+An element that is moving toward the end moves quickly (rabbit) because it takes part in successive swaps. For example, the largest element will be part of all consecutive swap in one pass until it is at the end of the list. On the other hand, an element that must move toward the beginning of the list (turtle) cannot move faster than one step per pass. For example, the smallest element will take n-1 passes (one swap per pass) where n is the element's position.
+
 ## Installation
 
 ```shell
