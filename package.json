@@ -1,6 +1,6 @@
 {
   "name": "algo-sort-bubble",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Bubble sort algorithm",
   "main": "index.js",
   "directories": {
